@@ -9,7 +9,6 @@ deployment/
 
 
 ## Deploy a specific project (e.g., pt001)
-
 ```  ./deploy.sh pt001 ```
 
 ## Deploy multiple projects

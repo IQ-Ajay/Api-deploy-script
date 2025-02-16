@@ -17,3 +17,6 @@ for project in "$@"; do
         echo "Configuration file for project $project not found!"
     fi
 done
+
+
+rm  "C:\Users\IQ-Ajay\Downloads\*.jar" -Force

@@ -44,7 +44,7 @@ cd /home/pt001/api && ./restart.sh
 # scp -i "C:\Users\IQ-Ajay\Downloads\pt001Pem.pem" "C:\Users\IQ-Ajay\Desktop\pt-001\wb001-health-api\build\libs\iqcloud-health-api-3.19.11.jar" ec2-user@ec2-13-234-11-107.ap-south-1.compute.amazonaws.com:/tmp/
 # scp -i "C:\Users\IQ-Ajay\Downloads\pt001Pem.pem" "C:\Users\IQ-Ajay\Downloads\iqcloud-health-api-3.19.11.jar" ec2-user@ec2-13-234-11-107.ap-south-1.compute.amazonaws.com:/tmp/
 
-# ssh -i "C:\Users\IQ-Ajay\Downloads\pt001Pem.pem" ec2-user@ec2ec2-13-234-11-107.ap-south-1.compute.amazonaws.com
+# ssh -i "C:\Users\IQ-Ajay\Downloads\pt001Pem.pem" ec2-user@ec2-13-234-11-107.ap-south-1.compute.amazonaws.com
 # sudo su - pt001
 # cd /home/pt001/api/old && rm -rf *
 # mv /home/pt001/api/iqcloud-health-api.jar /home/pt001/api/old/iqcloud-health-api-$(date +%Y%m%d%H%M%S).jar

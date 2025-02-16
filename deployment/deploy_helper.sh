@@ -19,7 +19,7 @@ deploy_project() {
   # SSH into the server and perform the deployment steps
   ssh -i "$PEM_FILE_PATH" "$SSH_USER@$SERVER_IP" << EOF
     sudo su - pt001
-    cd $BACKUP_DIR && rm -rf *
+    # cd $BACKUP_DIR && rm -rf *
     mv $DEPLOY_DIR/${JAR_NAME}.jar $BACKUP_DIR/${JAR_NAME}-$(date +%Y%m%d%H%M%S).jar
     cp $TEMP_DIR/$JAR_FILE $DEPLOY_DIR/${JAR_NAME}.jar
     cd $DEPLOY_DIR && ./restart.sh

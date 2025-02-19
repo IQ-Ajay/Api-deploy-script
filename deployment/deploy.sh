@@ -19,4 +19,4 @@ for project in "$@"; do
 done
 
 
-rm  "C:\Users\IQ-Ajay\Downloads\*.jar" -Force
+rm -rf "C:\Users\IQ-Ajay\Downloads\*.jar" 
